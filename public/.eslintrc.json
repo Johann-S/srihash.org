@@ -1,0 +1,15 @@
+{
+  "extends": "../.eslintrc.json",
+  "env": {
+    "browser": true,
+    "es6": false,
+    "node": false
+  },
+  "rules": {
+    "func-names": [
+      "error",
+      "never"
+    ],
+    "no-var": "off"
+  }
+}
